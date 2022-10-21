@@ -1,0 +1,23 @@
+import React from "react";
+import './SingleCard.css';
+
+function SingleCard( {card, handleChoice, flipped}) {
+
+    const handleClick = () => {
+        handleChoice(card)
+
+    }
+
+    return (
+
+        <div className='card' >
+            <div className={flipped ? 'flipped' : ''}>
+                <img src={card.src} className={'front'} alt={"front card"} />
+                <img src={"img/cover.png"} className={'back'} alt={"back card"} onClick={handleClick} />
+            </div>
+        </div>
+
+    )
+}
+
+export default SingleCard
