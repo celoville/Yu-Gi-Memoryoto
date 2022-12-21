@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Yu-Gi-Memoryoto/static/css/main.9621726f.chunk.css",
+    "main.js": "/Yu-Gi-Memoryoto/static/js/main.c457a349.chunk.js",
+    "main.js.map": "/Yu-Gi-Memoryoto/static/js/main.c457a349.chunk.js.map",
+    "runtime-main.js": "/Yu-Gi-Memoryoto/static/js/runtime-main.46f746f9.js",
+    "runtime-main.js.map": "/Yu-Gi-Memoryoto/static/js/runtime-main.46f746f9.js.map",
+    "static/js/2.5fceb2a2.chunk.js": "/Yu-Gi-Memoryoto/static/js/2.5fceb2a2.chunk.js",
+    "static/js/2.5fceb2a2.chunk.js.map": "/Yu-Gi-Memoryoto/static/js/2.5fceb2a2.chunk.js.map",
+    "index.html": "/Yu-Gi-Memoryoto/index.html",
+    "static/css/main.9621726f.chunk.css.map": "/Yu-Gi-Memoryoto/static/css/main.9621726f.chunk.css.map",
+    "static/js/2.5fceb2a2.chunk.js.LICENSE.txt": "/Yu-Gi-Memoryoto/static/js/2.5fceb2a2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Yu-Gi-Memoryoto/static/media/castle.3ea5f81f.jpg",
+    "static/media/App.css": "/Yu-Gi-Memoryoto/static/media/cursor.8f5c9d6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46f746f9.js",
+    "static/js/2.5fceb2a2.chunk.js",
+    "static/css/main.9621726f.chunk.css",
+    "static/js/main.c457a349.chunk.js"
+  ]
+}
