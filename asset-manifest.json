@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Yu-Gi-Memoryoto/static/css/main.9621726f.chunk.css",
-    "main.js": "/Yu-Gi-Memoryoto/static/js/main.c457a349.chunk.js",
-    "main.js.map": "/Yu-Gi-Memoryoto/static/js/main.c457a349.chunk.js.map",
+    "main.js": "/Yu-Gi-Memoryoto/static/js/main.7ccdb81e.chunk.js",
+    "main.js.map": "/Yu-Gi-Memoryoto/static/js/main.7ccdb81e.chunk.js.map",
     "runtime-main.js": "/Yu-Gi-Memoryoto/static/js/runtime-main.46f746f9.js",
     "runtime-main.js.map": "/Yu-Gi-Memoryoto/static/js/runtime-main.46f746f9.js.map",
     "static/js/2.5fceb2a2.chunk.js": "/Yu-Gi-Memoryoto/static/js/2.5fceb2a2.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.46f746f9.js",
     "static/js/2.5fceb2a2.chunk.js",
     "static/css/main.9621726f.chunk.css",
-    "static/js/main.c457a349.chunk.js"
+    "static/js/main.7ccdb81e.chunk.js"
   ]
 }
