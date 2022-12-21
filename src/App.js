@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import { Counter } from './components/Counter'
 import SingleCard from './components/SingleCard'
+import YouLose from './components/YouLose'
 
 const cardImages = [
   { "src": "/img/cards/blue_eyes.jpg", matched: false },
@@ -18,8 +20,7 @@ function App() {
   // this sets the choices
   const [choiceOne, setChoiceOne] = useState(null)
   const [choiceTwo, setChoiceTwo] = useState(null)
-
-
+  const [turnCount, setTurnCount] = useState(0)
   // shuffle card function
   const shuffleCards = () => {
     const shuffleDCards = [...cardImages, ...cardImages]
@@ -28,6 +29,8 @@ function App() {
 
     setCards(shuffleDCards)
     setTurns(0)
+    setTurnCount(0)
+
   }
 
   // handle a choice
@@ -52,10 +55,12 @@ function App() {
 
         // console.log("Those cards MATCH!!")
         setTimeout(() => resetTurn(), 500) 
+
       } else {
         // console.log("No Match.")
         setTimeout(() => resetTurn(), 500) 
       }
+      setTurnCount(turnCount +1)
     }
 
     // this will reset the turn
@@ -75,7 +80,7 @@ function App() {
     <div className="App">
       <h1>Heart of the Cards</h1>
       <button onClick={shuffleCards}>Let's Duel</button>
-
+      <Counter turnCount={turnCount} />
       <div className='card-grid' >
         {cards.map(card => (
           <SingleCard
@@ -89,6 +94,14 @@ function App() {
 
 
       </div>
+
+      {
+        turnCount > 18 &&
+
+        <YouLose shuffleCards={shuffleCards}/>
+
+      }
+
     </div>
   );
 }
